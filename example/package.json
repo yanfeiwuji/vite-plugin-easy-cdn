@@ -12,7 +12,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
+    "esbuild-node-tsc": "^1.4.2",
     "vite": "^2.3.0",
-    "vite-plugin-easy-cdn": "^1.0.1"
+    "vite-plugin-easy-cdn": "^1.0.3"
   }
 }

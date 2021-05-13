@@ -1,16 +1,24 @@
 {
   "name": "vite-plugin-easy-cdn",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "vite-plugin-easy-cdn",
+  "main": "lib/index.js",
   "author": "yanfeiwuji",
-  "main": "index.js",
+  "scripts": {
+    "dev": "etsc",
+    "watch": "nodemon",
+    "prepublishOnly": "etsc"
+  },
   "license": "MIT",
-   "devDependencies": {
+  "devDependencies": {
     "@types/node": "^14.14.35",
     "esbuild-node-tsc": "^1.2.0",
     "nodemon": "^2.0.7",
     "typescript": "^4.2.3"
   },
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "mkdirp-sync": "^0.0.3"
   },
@@ -18,6 +26,5 @@
     "type": "git",
     "url": "git+https://github.com/yanfeiwuji/vite-plugin-easy-cdn.git"
   },
-  "homepage":"https://github.com/yanfeiwuji/vite-plugin-easy-cdn#readme"
-
+  "homepage": "https://github.com/yanfeiwuji/vite-plugin-easy-cdn#readme"
 }

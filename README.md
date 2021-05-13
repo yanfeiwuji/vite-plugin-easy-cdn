@@ -1,7 +1,9 @@
 # vite-plugin-easy-cdn
 ## todo
-push to npm
+
 ## use
+```shell
+```
 ```javascript
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
