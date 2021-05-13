@@ -8,10 +8,6 @@ interface HtmlTagDescriptor {
   tag: string;
   attrs?: Record<string, string>;
   children?: string | HtmlTagDescriptor[];
-  /**
-   * 默认： 'head-prepend'
-   */
-  injectTo?: "head" | "body" | "head-prepend" | "body-prepend";
 }
 
 // cdn 的配置
@@ -20,7 +16,7 @@ interface CdnInfo {
   var: string;
   // path 以 http 开始就用 http地址
   path: string;
-  tag?: HtmlTagDescriptor;
+  htmlTag?: HtmlTagDescriptor;
 }
 
 const cdnCode = (npmName: string, windowName: string) => {
@@ -63,8 +59,8 @@ const htmlAddCdn = (html, cdns: Array<CdnInfo | String>) => {
 
     .map((c) => {
       // c.tag 优先级最高
-      if (c.tag) {
-        return c.tag;
+      if (c.htmlTag) {
+        return { ...c.htmlTag, injectTo: "head-prepend" };
       }
       // 只有 js 有name和var
       const tag = c.name && c.var ? "script" : "link";

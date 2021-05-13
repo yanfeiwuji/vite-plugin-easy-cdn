@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-easy-cdn",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "vite-plugin-easy-cdn",
   "main": "lib/index.js",
   "author": "yanfeiwuji",

@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "element-ui": "^2.15.1",
+    "pako": "^2.0.3",
     "vue": "^3.0.5"
   },
   "devDependencies": {
@@ -14,6 +16,6 @@
     "@vue/compiler-sfc": "^3.0.5",
     "esbuild-node-tsc": "^1.4.2",
     "vite": "^2.3.0",
-    "vite-plugin-easy-cdn": "^1.0.3"
+    "vite-plugin-easy-cdn": "^1.0.4"
   }
 }
