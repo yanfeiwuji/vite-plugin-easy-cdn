@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-import EasyCdn from "../../vite-plugin-easy-cdn/src/index.ts";
+import EasyCdn from "vite-plugin-easy-cdn";
 
 export default defineConfig({
   plugins: [

@@ -243,6 +243,11 @@ minimist@^1.2.0:
   resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
 
+mkdirp-sync@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.nlark.com/mkdirp-sync/download/mkdirp-sync-0.0.3.tgz#2a7cf5b04f3ad7cba5f41f79a754939fc30d7e16"
+  integrity sha1-Knz1sE8618ul9B95p1STn8MNfhY=
+
 nanoid@^3.1.23:
   version "3.1.23"
   resolved "https://registry.nlark.com/nanoid/download/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
@@ -356,6 +361,13 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+vite-plugin-easy-cdn@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.nlark.com/vite-plugin-easy-cdn/download/vite-plugin-easy-cdn-1.0.1.tgz?cache=0&sync_timestamp=1620871359533&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvite-plugin-easy-cdn%2Fdownload%2Fvite-plugin-easy-cdn-1.0.1.tgz#b5d668c5e4ab3c9001a0ed3444ad53f37b2340a6"
+  integrity sha1-tdZoxeSrPJABoO00RK1T83sjQKY=
+  dependencies:
+    mkdirp-sync "^0.0.3"
 
 vite@^2.3.0:
   version "2.3.1"

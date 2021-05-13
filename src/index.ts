@@ -18,7 +18,7 @@ interface HtmlTagDescriptor {
 interface CdnInfo {
   name: string;
   var: string;
-  // path 以 http 开始就用 http地址，以/ or [a-z] 就用 cdn的内容 css只有1个 js 有name and var
+  // path 以 http 开始就用 http地址
   path: string;
   tag?: HtmlTagDescriptor;
 }

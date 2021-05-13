@@ -1,7 +1,8 @@
 {
   "name": "vite-plugin-easy-cdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vite-plugin-easy-cdn",
+  "author": "yanfeiwuji",
   "main": "index.js",
   "license": "MIT",
    "devDependencies": {
@@ -12,5 +13,11 @@
   },
   "dependencies": {
     "mkdirp-sync": "^0.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanfeiwuji/vite-plugin-easy-cdn.git"
+  },
+  "homepage":"https://github.com/yanfeiwuji/vite-plugin-easy-cdn#readme"
+
 }
